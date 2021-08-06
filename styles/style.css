@@ -1,0 +1,160 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+/* Utilities */
+body {
+  font-family: "Poppins", sans-serif;
+}
+main {
+  background-color: #ffffff;
+}
+.container {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Top Parts Styles */
+.top-parts {
+  display: flex;
+  align-items: center;
+  background-color: #2d25a0;
+  padding: 70px;
+}
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.top-title img {
+  width: 556.01px;
+  height: 438px;
+}
+.button {
+  text-decoration: none;
+  background-color: #e02c6d;
+  font-size: 16px;
+  padding: 10px 24px;
+  margin-bottom: 150px;
+}
+/* Players Styles */
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 45px;
+  align-items: center;
+  margin-left: 180px;
+  margin-right: 200px;
+}
+.player {
+  background-color: #ffffff;
+  width: 330px;
+  height: 456px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+}
+.player img {
+  width: 300px;
+  height: 256px;
+}
+.player-name {
+  font-weight: bold;
+  font-size: 28px;
+  color: #18191f;
+}
+.player-details {
+  font-size: 16px;
+  color: #6c6c6c;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Match Highlights Style */
+.highlights {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.highlight-title {
+  font-weight: bold;
+  font-size: 48px;
+  color: #0a0826;
+}
+.highlight-paragraph {
+  font-size: 16px;
+  color: #6c6c6c;
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+.highlight-info {
+  margin-left: 180px;
+  padding-right: 56px;
+}
+.highlight img {
+  width: 567px;
+  height: 427px;
+}
+.match-image {
+  margin-right: 150px;
+}
+/* Transfer Saga Styles */
+.transfer-header {
+  font-weight: bold;
+  font-size: 48px;
+  color: #0a0826;
+  text-align: center;
+}
+.transfers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 45px;
+  align-items: center;
+}
+.transfer {
+  height: 500px;
+  background-color: #8ee4af;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.transfer-title {
+  font-weight: bold;
+  font-size: 28px;
+  color: #18191f;
+}
+.transfer-details {
+  font-size: 16px;
+  color: black;
+}
+/* Footer Styles */
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footers {
+  padding-bottom: 20px;
+  margin-top: 165px;
+  margin-bottom: 56px;
+}
+.footer-image {
+  width: 483px;
+  height: 110px;
+}
+.social-icon {
+  width: 32px;
+  height: 32px;
+  padding-left: 14px;
+}
+.copyright-text {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
