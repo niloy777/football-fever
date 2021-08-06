@@ -20,6 +20,9 @@ main {
   background-color: #2d25a0;
   padding: 70px;
 }
+.top-title {
+  overflow: hidden;
+}
 .title {
   font-size: 64px;
   font-weight: 700;
@@ -35,6 +38,10 @@ main {
   font-size: 16px;
   padding: 10px 24px;
   margin-bottom: 150px;
+}
+.top-title:hover {
+  transform: scale(1.1);
+  transition: transform 2s ease-in-out;
 }
 /* Players Styles */
 .players {
